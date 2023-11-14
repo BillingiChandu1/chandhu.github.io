@@ -11,11 +11,11 @@
 
 header {
     display: flex;
+    justify-content: space-between;
     background-color: #0F1111;
     color: white;
     flex-direction: row;
     flex-grow: 15;
-    margin: auto;
     padding: auto;
 }
 
@@ -23,6 +23,7 @@ header {
     width: 128.3px;
     height: 60px;
     background-color: black;
+    margin-left: 20px;
 }
 
 .icon {
@@ -149,6 +150,7 @@ input {
 .cart1 {
     background-color: #0F1111;
     color: white;
+    margin-right: 20px;
 }
 
 .cart {
