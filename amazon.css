@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    background-color: #0F1111;
+    color: white;
+    flex-direction: row;
+    flex-grow: 15;
+    margin: auto;
+    padding: auto;
+}
+
+.logo {
+    width: 128.3px;
+    height: 60px;
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #0F1111;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    justify-content: center;
+    background-color: #0F1111;
+}
+
+.del {
+    color: #b2c4c4;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 455;
+    background-color: #0F1111;
+}
+
+.up {
+    font-size: 15px;
+    line-height: 14px;
+    font-weight: bold;
+    background-color: #0F1111;
+}
+
+.check {
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-grow: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(229, 222, 222);
+    border: none;
+}
+
+input {
+    display: flex;
+    flex-shrink: 20;
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.searchbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo1 {
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-grow: auto;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    justify-content: center;
+}
+
+.logo2 {
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.check1 {
+    border: none;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    flex-grow: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+
+.img1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #0F1111;
+}
+
+.ln {
+    display: flex;
+    flex-direction: row;
+    background-color: #0F1111;
+
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #0F1111;
+}
+
+.H {
+    font-size: 15px;
+}
+
+.A {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart1 {
+    background-color: #0F1111;
+    color: white;
+}
+
+.cart {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 38px;
+    height: 26px;
+    background-color: #0F1111;
+}
+
+.f {
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 1%;
+    background-color: #0F1111;
+}
+
+.header2 {
+    display: flex;
+    background-color: rgb(38, 38, 52);
+    color: white;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+}
+
+.bar {
+    margin-left: 15px;
+
+}
+
+.m {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+img{
+    margin-top: 14px;
+}
+
+.all {
+    margin-top: 4px;
+
+}
+
+.items1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px
+}
+
+.item {
+    text-decoration-style: none;
+    margin: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.carousel1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: auto;
+    width: 1500px;
+    height: 600px;
+    z-index: 1;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -300px;
+    z-index: 2;
+    margin-bottom: 5px;
+}
+
+.card {
+    z-index: 2;
+}
+
+.card img {
+    padding: 10px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.n {
+    width: 100vw;
+    display: flex;
+    border: -1px solid black;
+    background-color: #bae7e7;
+    width: 100vw;
+    overflow-x: scroll;
+}
+
+.photo {
+    display: flex;
+    border: 1px solid black;
+    margin: 20px;
+    width: 279px;
+    height: 204px;
+}
+
+.best {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: inherit;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.t {
+    width: 100vw;
+}
+
+.train {
+    width: 100vw;
+    height: 250px;
+}
+
+.photo1 {
+    display: flex;
+    border: 1px solid black;
+    margin: 18px;
+    width: 279px;
+    height: 204px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(47, 47, 66);
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1px;
+    width: 100vw;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.d {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.d1 {
+    margin-top: 5px;
+}
+
+.d3 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.finish {
+    display: flex;
+    background-color: rgb(47, 47, 66);
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1px;
+    width: 100vw;
+}
+.finish1{
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+}
+
+#carouselExampleFade {
+    width: 100vw;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width:600px) {
+    .carousel-item {
+        width: 100vw;
+        height: 300px;
+    }
+    .icon, .ln, .check1, .hello, .cart, .f { display: none; }
+    .logo { width: 100px; height: 50px; }
+    .searchbox { width: 39%; }
+    .searchbox input { width: 100%; }
+    .header2 {
+        overflow-x: scroll;
+        scrollbar-width: 2px;
+    }
+    }
+    .card-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -300px;
+        z-index: 2;
+        margin-bottom: 5px;
+        margin: 10px;
+    }
+    .card {
+        z-index: 2;
+    }
+    .card img {
+        padding: 10px;
+        width: 100vw;
+        height: 100%;
+    }
+    .n {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .photo {
+        margin: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .best {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .train {
+        height: 150px;
+    }
+
+    .photo {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .photo1 {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .d {
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .d1 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .d3 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .finish {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+}
