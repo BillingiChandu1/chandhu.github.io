@@ -187,9 +187,6 @@ input {
     margin-top: 5px;
 
 }
-img{
-    margin-top: 14px;
-}
 
 .all {
     margin-top: 4px;
@@ -214,7 +211,6 @@ img{
     flex-direction: row;
 
 }
-
 
 .carousel1 {
     margin-left: 5px;
@@ -354,14 +350,13 @@ header {
         width: 100vw;
         height: 300px;
     }
-    .icon, .ln, .check1, .hello, .cart, .f { display: none; }
+    .icon, .location, .ln, .check1, .hello, .cart, .f { display: none; }
     .logo { width: 100px; height: 50px; }
     .searchbox { width: 39%; }
     .searchbox input { width: 100%; }
     .header2 {
         overflow-x: scroll;
         scrollbar-width: 2px;
-    }
     }
     .card-section {
         display: flex;
@@ -378,7 +373,7 @@ header {
     }
     .card img {
         padding: 10px;
-        width: 100vw;
+        width: 100%;
         height: 100%;
     }
     .n {
